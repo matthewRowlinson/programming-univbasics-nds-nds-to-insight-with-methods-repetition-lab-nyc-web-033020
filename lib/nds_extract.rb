@@ -31,8 +31,9 @@ def list_of_directors(source)
   index = 0 
   while index < source.count do 
     list[index] = source[index][:name]
+    index += 1 
   end
-  
+  list 
 end
 
 def total_gross(source)
